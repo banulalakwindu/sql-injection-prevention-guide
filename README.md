@@ -1,4 +1,4 @@
-# 🛡️ Web Security Lab with SQL Injection 🕵️‍♂️
+# 🛡️ Web Security Session with SQL Injection 🕵️‍♂️
 
 ## 🚀 Project Overview
 
