@@ -17,14 +17,14 @@ This project aims to help students understand web security vulnerabilities, with
 4. 🖥️ Access the web interface.
 5. 👩‍💻 Try inputting 'user1' as the username and 'Password1' as the password and click 'Search'.
    - The interface should display user1's details in a table.
-6. 🕵️‍♂️ Now, try inputting `' True- --` as the username and click 'Search'.
+6. 🕵️‍♂️ Now, try inputting `' OR True-- -` as the username and click 'Search'.
    - The interface will display details of all users, indicating SQL Injection vulnerability.
 7. 🛡️ To mitigate SQL Injection, uncomment lines 52 and 53 in 'index.php' to sanitize user inputs:
    ```php
    $inputUsername = mysqli_real_escape_string($conn, $inputUsername);
    $inputPassword = mysqli_real_escape_string($conn, $inputPassword);
    ```
-8. 🧹 Try inputting `' True- --` as the username and click 'Search' again.
+8. 🧹 Try inputting `' OR True-- -` as the username and click 'Search' again.
    - This time, you won't be able to view all users' details, and the interface will show 'Not found'.
 
 ## 🤝 Conclusion
